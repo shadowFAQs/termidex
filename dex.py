@@ -225,7 +225,6 @@ def try_parse_int(n: str):
 def main():
     dex = Pokedex()
 
-    # command = {'command': 'lookup', 'number': 149}
     command = get_args(dex)
     while command:
         with Live(dex.stat_panel, refresh_per_second=20):

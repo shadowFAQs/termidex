@@ -13,13 +13,16 @@ Uses [Rich](https://github.com/Textualize/rich) for colorful displays and animat
 ### Usage
 
 Look up a Pokémon by name:
-	`>>> python /path/to/dex.py --lookup growlithe`
+
+`>>> python /path/to/dex.py --lookup growlithe`
 
 Look up a Pokémon by gen 1 Pokédex number:
-	`>>> python /path/to/dex.py -l 58`
+
+`>>> python /path/to/dex.py -l 58`
 
 See info for a random gen 1 Pokémon:
-	`>>> python /path/to/dex.py --random`
+
+`>>> python /path/to/dex.py --random`
 
 ### Resources
 
