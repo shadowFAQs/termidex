@@ -19,6 +19,7 @@ from math import ceil, floor
 from random import randint
 
 from rich import print
+from rich.console import Console
 from rich.live import Live
 from rich.panel import Panel
 from rich.progress import (
@@ -180,6 +181,15 @@ def as_ratio_to_max(value: float, max_value: int) -> int:
     return floor((int(value) / max_value) * 100)
 
 
+def check_small_term_width():
+    console = Console()
+    if console.width < 80 or console.height < 10:
+        print('Console size must be at least [orange1]80x10[/orange1] to display correctly')
+        return True
+
+    return False
+
+
 def get_args(dex: Pokedex) -> dict | None:
     parser = argparse.ArgumentParser(
         prog='Pokédex',
@@ -223,6 +233,9 @@ def try_parse_int(n: str):
 
 
 def main():
+    if check_small_term_width():
+        return
+
     dex = Pokedex()
 
     command = get_args(dex)
