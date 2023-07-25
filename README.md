@@ -2,11 +2,7 @@
 
 Look up gen 1 Pokémon by name or Pokédex number from your Terminal app.
 
-
-
-https://github.com/shadowFAQs/termidex/assets/36905164/2e08c5ca-bab9-455a-86dd-45bab35459a3
-
-
+![](dex_demo.gif)
 
 Uses [Rich](https://github.com/Textualize/rich) for colorful displays and animated stat bars. I've only tested it on Windows Terminal, but Termidex should work on any OS as long as you have Python 3.7 or later.
 
