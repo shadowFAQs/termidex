@@ -1,14 +1,12 @@
 # Termidex
 
-Look up gen 1 Pokémon by name or Pokédex number from your Terminal app.
+Termidex is a terminal-based Pokédex with animated stat bars.
 
 ![](dex_demo.gif)
 
 Uses [Rich](https://github.com/Textualize/rich) for colorful displays and animated stat bars. I've only tested it on Windows Terminal, but Termidex should work on any OS as long as you have Python 3.7 or later.
 
-### Dependencies
-
-- rich (I'm using v13.4.2)
+Currently the Pokédex only contains gen 1 Pokémon.
 
 ### Usage
 
@@ -20,9 +18,13 @@ Look up a Pokémon by gen 1 Pokédex number:
 
 `>>> python /path/to/dex.py -l 58`
 
-See info for a random gen 1 Pokémon:
+See info for a random Pokémon:
 
 `>>> python /path/to/dex.py --random`
+
+### Dependencies
+
+- rich (I'm using v13.4.2)
 
 ### Resources
 
