@@ -4,7 +4,7 @@ Termidex is a terminal-based Pokédex with animated stat bars.
 
 ![](dex_demo.gif)
 
-Uses [Rich](https://github.com/Textualize/rich) for colorful displays and animated stat bars. I've only tested it on Windows Terminal, but Termidex should work on any OS as long as you have Python 3.7 or later.
+Uses [Rich](https://github.com/Textualize/rich) for its colors and and progress bars. I've only tested it on Windows Terminal and zsh, but Termidex should work on any OS as long as you have Python 3.7 or later.
 
 Currently the Pokédex only contains gen 1 Pokémon.
 
